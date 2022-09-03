@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Mada:wght@200;300;400;500;600;700;900&display=swap");
+main {
+  font-family: "Amiri", serif;
+}
+
+.up {
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  z-index: 282;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+nav {
+  min-height: 70px;
+  letter-spacing: 2px;
+}
+
+nav .nav-link {
+  font-weight: bold;
+}
+
+header {
+  min-height: 100vh;
+  background: #000000b9 url(../images/header3.jpg) no-repeat center/cover;
+  background-blend-mode: multiply;
+}
+
+header .container {
+  min-height: 100vh;
+}
+
+header p {
+  font-size: 29px;
+  line-height: 70px;
+}
+
+header .btn {
+  border-radius: 15px;
+}
+
+.serv {
+  margin: 150px 0;
+}
+
+.serv p {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.serv .service {
+  height: 170px;
+  line-height: 170px;
+  background: #f8f9fa;
+  border-bottom: solid #222121 4px;
+  border-radius: 7px;
+}
+
+.gallery {
+  min-height: 800px;
+  margin: 150px 0;
+}
+
+.gallery .test {
+  height: 250px;
+  border-radius: 15px;
+}
+
+.gallery .test img {
+  border-radius: 15px;
+}
+
+.map .test {
+  background: #f8f9fa;
+}
+
+footer {
+  background: #ebecec;
+  min-height: 50px;
+  line-height: 50px;
+}
+
+footer span {
+  color: #0b1d40;
+}
+
+@media all and (max-width: 480px) {
+  .break {
+    display: block;
+  }
+}
